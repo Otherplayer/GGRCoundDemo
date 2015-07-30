@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		635CCCA41B6A181500B0292A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 635CCCA31B6A181500B0292A /* main.m */; };
+		635CCCA71B6A181500B0292A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 635CCCA61B6A181500B0292A /* AppDelegate.m */; };
+		635CCCAA1B6A181500B0292A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 635CCCA91B6A181500B0292A /* ViewController.m */; };
+		635CCCAD1B6A181500B0292A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635CCCAB1B6A181500B0292A /* Main.storyboard */; };
+		635CCCAF1B6A181500B0292A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635CCCAE1B6A181500B0292A /* Assets.xcassets */; };
+		635CCCB21B6A181500B0292A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635CCCB01B6A181500B0292A /* LaunchScreen.storyboard */; };
+		635CCCBD1B6A181500B0292A /* GGRCloudDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 635CCCBC1B6A181500B0292A /* GGRCloudDemoTests.m */; };
+		635CCCC81B6A181500B0292A /* GGRCloudDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 635CCCC71B6A181500B0292A /* GGRCloudDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		635CCCB91B6A181500B0292A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 635CCC971B6A181500B0292A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 635CCC9E1B6A181500B0292A;
+			remoteInfo = GGRCloudDemo;
+		};
+		635CCCC41B6A181500B0292A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 635CCC971B6A181500B0292A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 635CCC9E1B6A181500B0292A;
+			remoteInfo = GGRCloudDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		635CCC9F1B6A181500B0292A /* GGRCloudDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGRCloudDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		635CCCA31B6A181500B0292A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		635CCCA51B6A181500B0292A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		635CCCA61B6A181500B0292A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		635CCCA81B6A181500B0292A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		635CCCA91B6A181500B0292A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		635CCCAC1B6A181500B0292A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		635CCCAE1B6A181500B0292A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		635CCCB11B6A181500B0292A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		635CCCB31B6A181500B0292A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635CCCB81B6A181500B0292A /* GGRCloudDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGRCloudDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		635CCCBC1B6A181500B0292A /* GGRCloudDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGRCloudDemoTests.m; sourceTree = "<group>"; };
+		635CCCBE1B6A181500B0292A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635CCCC31B6A181500B0292A /* GGRCloudDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGRCloudDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		635CCCC71B6A181500B0292A /* GGRCloudDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGRCloudDemoUITests.m; sourceTree = "<group>"; };
+		635CCCC91B6A181500B0292A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		635CCC9C1B6A181500B0292A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635CCCB51B6A181500B0292A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635CCCC01B6A181500B0292A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		635CCC961B6A181500B0292A = {
+			isa = PBXGroup;
+			children = (
+				635CCCA11B6A181500B0292A /* GGRCloudDemo */,
+				635CCCBB1B6A181500B0292A /* GGRCloudDemoTests */,
+				635CCCC61B6A181500B0292A /* GGRCloudDemoUITests */,
+				635CCCA01B6A181500B0292A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		635CCCA01B6A181500B0292A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				635CCC9F1B6A181500B0292A /* GGRCloudDemo.app */,
+				635CCCB81B6A181500B0292A /* GGRCloudDemoTests.xctest */,
+				635CCCC31B6A181500B0292A /* GGRCloudDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		635CCCA11B6A181500B0292A /* GGRCloudDemo */ = {
+			isa = PBXGroup;
+			children = (
+				635CCCA51B6A181500B0292A /* AppDelegate.h */,
+				635CCCA61B6A181500B0292A /* AppDelegate.m */,
+				635CCCA81B6A181500B0292A /* ViewController.h */,
+				635CCCA91B6A181500B0292A /* ViewController.m */,
+				635CCCAB1B6A181500B0292A /* Main.storyboard */,
+				635CCCAE1B6A181500B0292A /* Assets.xcassets */,
+				635CCCB01B6A181500B0292A /* LaunchScreen.storyboard */,
+				635CCCB31B6A181500B0292A /* Info.plist */,
+				635CCCA21B6A181500B0292A /* Supporting Files */,
+			);
+			path = GGRCloudDemo;
+			sourceTree = "<group>";
+		};
+		635CCCA21B6A181500B0292A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				635CCCA31B6A181500B0292A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		635CCCBB1B6A181500B0292A /* GGRCloudDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				635CCCBC1B6A181500B0292A /* GGRCloudDemoTests.m */,
+				635CCCBE1B6A181500B0292A /* Info.plist */,
+			);
+			path = GGRCloudDemoTests;
+			sourceTree = "<group>";
+		};
+		635CCCC61B6A181500B0292A /* GGRCloudDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				635CCCC71B6A181500B0292A /* GGRCloudDemoUITests.m */,
+				635CCCC91B6A181500B0292A /* Info.plist */,
+			);
+			path = GGRCloudDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		635CCC9E1B6A181500B0292A /* GGRCloudDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635CCCCC1B6A181500B0292A /* Build configuration list for PBXNativeTarget "GGRCloudDemo" */;
+			buildPhases = (
+				635CCC9B1B6A181500B0292A /* Sources */,
+				635CCC9C1B6A181500B0292A /* Frameworks */,
+				635CCC9D1B6A181500B0292A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GGRCloudDemo;
+			productName = GGRCloudDemo;
+			productReference = 635CCC9F1B6A181500B0292A /* GGRCloudDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		635CCCB71B6A181500B0292A /* GGRCloudDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635CCCCF1B6A181500B0292A /* Build configuration list for PBXNativeTarget "GGRCloudDemoTests" */;
+			buildPhases = (
+				635CCCB41B6A181500B0292A /* Sources */,
+				635CCCB51B6A181500B0292A /* Frameworks */,
+				635CCCB61B6A181500B0292A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				635CCCBA1B6A181500B0292A /* PBXTargetDependency */,
+			);
+			name = GGRCloudDemoTests;
+			productName = GGRCloudDemoTests;
+			productReference = 635CCCB81B6A181500B0292A /* GGRCloudDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		635CCCC21B6A181500B0292A /* GGRCloudDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635CCCD21B6A181500B0292A /* Build configuration list for PBXNativeTarget "GGRCloudDemoUITests" */;
+			buildPhases = (
+				635CCCBF1B6A181500B0292A /* Sources */,
+				635CCCC01B6A181500B0292A /* Frameworks */,
+				635CCCC11B6A181500B0292A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				635CCCC51B6A181500B0292A /* PBXTargetDependency */,
+			);
+			name = GGRCloudDemoUITests;
+			productName = GGRCloudDemoUITests;
+			productReference = 635CCCC31B6A181500B0292A /* GGRCloudDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		635CCC971B6A181500B0292A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "__无邪_";
+				TargetAttributes = {
+					635CCC9E1B6A181500B0292A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					635CCCB71B6A181500B0292A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 635CCC9E1B6A181500B0292A;
+					};
+					635CCCC21B6A181500B0292A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 635CCC9E1B6A181500B0292A;
+					};
+				};
+			};
+			buildConfigurationList = 635CCC9A1B6A181500B0292A /* Build configuration list for PBXProject "GGRCloudDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 635CCC961B6A181500B0292A;
+			productRefGroup = 635CCCA01B6A181500B0292A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				635CCC9E1B6A181500B0292A /* GGRCloudDemo */,
+				635CCCB71B6A181500B0292A /* GGRCloudDemoTests */,
+				635CCCC21B6A181500B0292A /* GGRCloudDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		635CCC9D1B6A181500B0292A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635CCCB21B6A181500B0292A /* LaunchScreen.storyboard in Resources */,
+				635CCCAF1B6A181500B0292A /* Assets.xcassets in Resources */,
+				635CCCAD1B6A181500B0292A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635CCCB61B6A181500B0292A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635CCCC11B6A181500B0292A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		635CCC9B1B6A181500B0292A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635CCCAA1B6A181500B0292A /* ViewController.m in Sources */,
+				635CCCA71B6A181500B0292A /* AppDelegate.m in Sources */,
+				635CCCA41B6A181500B0292A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635CCCB41B6A181500B0292A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635CCCBD1B6A181500B0292A /* GGRCloudDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635CCCBF1B6A181500B0292A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635CCCC81B6A181500B0292A /* GGRCloudDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		635CCCBA1B6A181500B0292A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 635CCC9E1B6A181500B0292A /* GGRCloudDemo */;
+			targetProxy = 635CCCB91B6A181500B0292A /* PBXContainerItemProxy */;
+		};
+		635CCCC51B6A181500B0292A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 635CCC9E1B6A181500B0292A /* GGRCloudDemo */;
+			targetProxy = 635CCCC41B6A181500B0292A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		635CCCAB1B6A181500B0292A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				635CCCAC1B6A181500B0292A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		635CCCB01B6A181500B0292A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				635CCCB11B6A181500B0292A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		635CCCCA1B6A181500B0292A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		635CCCCB1B6A181500B0292A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		635CCCCD1B6A181500B0292A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GGRCloudDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = otherplayer.GGRCloudDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		635CCCCE1B6A181500B0292A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GGRCloudDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = otherplayer.GGRCloudDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		635CCCD01B6A181500B0292A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GGRCloudDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = otherplayer.GGRCloudDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GGRCloudDemo.app/GGRCloudDemo";
+			};
+			name = Debug;
+		};
+		635CCCD11B6A181500B0292A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GGRCloudDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = otherplayer.GGRCloudDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GGRCloudDemo.app/GGRCloudDemo";
+			};
+			name = Release;
+		};
+		635CCCD31B6A181500B0292A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GGRCloudDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = otherplayer.GGRCloudDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GGRCloudDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		635CCCD41B6A181500B0292A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GGRCloudDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = otherplayer.GGRCloudDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GGRCloudDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		635CCC9A1B6A181500B0292A /* Build configuration list for PBXProject "GGRCloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635CCCCA1B6A181500B0292A /* Debug */,
+				635CCCCB1B6A181500B0292A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		635CCCCC1B6A181500B0292A /* Build configuration list for PBXNativeTarget "GGRCloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635CCCCD1B6A181500B0292A /* Debug */,
+				635CCCCE1B6A181500B0292A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		635CCCCF1B6A181500B0292A /* Build configuration list for PBXNativeTarget "GGRCloudDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635CCCD01B6A181500B0292A /* Debug */,
+				635CCCD11B6A181500B0292A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		635CCCD21B6A181500B0292A /* Build configuration list for PBXNativeTarget "GGRCloudDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635CCCD31B6A181500B0292A /* Debug */,
+				635CCCD41B6A181500B0292A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 635CCC971B6A181500B0292A /* Project object */;
+}
