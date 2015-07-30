@@ -9,5 +9,8 @@
 #import <RongIMLib/RongIMLib.h>
 
 @interface GGUserInfo : RCUserInfo
+@property (nonatomic, strong)NSString *token;
+
+-(instancetype)initWithUserId:(NSString *)userId name:(NSString *)username portrait:(NSString *)portrait token:(NSString *)token;
 
 @end

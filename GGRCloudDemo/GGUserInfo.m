@@ -10,4 +10,16 @@
 
 @implementation GGUserInfo
 
+
+-(instancetype)initWithUserId:(NSString *)userId name:(NSString *)username portrait:(NSString *)portrait token:(NSString *)token{
+    self = [super init];
+    if (self) {
+        self.userId = userId;
+        self.name = username;
+        self.portraitUri = portrait;
+        self.token = token;
+    }
+    return self;
+}
+
 @end

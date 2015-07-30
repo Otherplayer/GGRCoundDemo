@@ -9,6 +9,31 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+#import <RongIMKit/RongIMKit.h>
+#import "NSString+Categories.h"
+#import "GGProgressHUD.h"
+
+#define kDeviceToken @"RongCloud_SDK_DeviceToken"
+#define kRongCloudAppKey @"8luwapkvufc6l"
+
+
+#define DEFAULTS [NSUserDefaults standardUserDefaults]
+#define ShareApplicationDelegate [[UIApplication sharedApplication] delegate]
+
+
+
+/**
+ **手机
+ */
+#define IS_IPHONE4 ([UIScreen mainScreen].bounds.size.height == 480.0f)
+#define IS_IPHONE5 ([UIScreen mainScreen].bounds.size.height == 568.0f)
+#define IS_IPHONE6 ([UIScreen mainScreen].bounds.size.height == 667.0f)//375w
+#define IS_IPHONE6_PLUS ([UIScreen mainScreen].bounds.size.height == 736.0f)//414w
+
+
+
+
+
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 

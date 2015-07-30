@@ -15,6 +15,11 @@
 		635CCCB21B6A181500B0292A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635CCCB01B6A181500B0292A /* LaunchScreen.storyboard */; };
 		635CCCBD1B6A181500B0292A /* GGRCloudDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 635CCCBC1B6A181500B0292A /* GGRCloudDemoTests.m */; };
 		635CCCC81B6A181500B0292A /* GGRCloudDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 635CCCC71B6A181500B0292A /* GGRCloudDemoUITests.m */; };
+		635CCCD71B6A199700B0292A /* GGRCloudManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 635CCCD61B6A199700B0292A /* GGRCloudManager.m */; };
+		635CCCDD1B6A1C3C00B0292A /* NSString+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 635CCCDC1B6A1C3C00B0292A /* NSString+Categories.m */; };
+		635CCCE01B6A224800B0292A /* GGUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 635CCCDF1B6A224800B0292A /* GGUserInfo.m */; };
+		635CCCE31B6A25A000B0292A /* GGProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 635CCCE21B6A25A000B0292A /* GGProgressHUD.m */; };
+		9CB9EA065370D6D828C3D3A3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEFFA88C6118BC2BC1234FA /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		295CD14B1058F70FCB97AF0B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3DEFFA88C6118BC2BC1234FA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E74F159D7A066E8DA475667 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		635CCC9F1B6A181500B0292A /* GGRCloudDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGRCloudDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		635CCCA31B6A181500B0292A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		635CCCA51B6A181500B0292A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,15 @@
 		635CCCC31B6A181500B0292A /* GGRCloudDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGRCloudDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		635CCCC71B6A181500B0292A /* GGRCloudDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGRCloudDemoUITests.m; sourceTree = "<group>"; };
 		635CCCC91B6A181500B0292A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635CCCD51B6A199700B0292A /* GGRCloudManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGRCloudManager.h; sourceTree = "<group>"; };
+		635CCCD61B6A199700B0292A /* GGRCloudManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGRCloudManager.m; sourceTree = "<group>"; };
+		635CCCD91B6A1B7000B0292A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		635CCCDB1B6A1C3C00B0292A /* NSString+Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Categories.h"; sourceTree = "<group>"; };
+		635CCCDC1B6A1C3C00B0292A /* NSString+Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Categories.m"; sourceTree = "<group>"; };
+		635CCCDE1B6A224800B0292A /* GGUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGUserInfo.h; sourceTree = "<group>"; };
+		635CCCDF1B6A224800B0292A /* GGUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGUserInfo.m; sourceTree = "<group>"; };
+		635CCCE11B6A25A000B0292A /* GGProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGProgressHUD.h; sourceTree = "<group>"; };
+		635CCCE21B6A25A000B0292A /* GGProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CB9EA065370D6D828C3D3A3 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D0EE22CEEF0EEDC6BF1B6B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E74F159D7A066E8DA475667 /* Pods.debug.xcconfig */,
+				295CD14B1058F70FCB97AF0B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		635CCC961B6A181500B0292A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +112,8 @@
 				635CCCBB1B6A181500B0292A /* GGRCloudDemoTests */,
 				635CCCC61B6A181500B0292A /* GGRCloudDemoUITests */,
 				635CCCA01B6A181500B0292A /* Products */,
+				4D0EE22CEEF0EEDC6BF1B6B6 /* Pods */,
+				D1246C1A48CD60A62F5BE669 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +130,8 @@
 		635CCCA11B6A181500B0292A /* GGRCloudDemo */ = {
 			isa = PBXGroup;
 			children = (
+				635CCCDA1B6A1C2B00B0292A /* Categories */,
+				635CCCD81B6A199E00B0292A /* RongCloud */,
 				635CCCA51B6A181500B0292A /* AppDelegate.h */,
 				635CCCA61B6A181500B0292A /* AppDelegate.m */,
 				635CCCA81B6A181500B0292A /* ViewController.h */,
@@ -118,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				635CCCA31B6A181500B0292A /* main.m */,
+				635CCCD91B6A1B7000B0292A /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +172,36 @@
 			path = GGRCloudDemoUITests;
 			sourceTree = "<group>";
 		};
+		635CCCD81B6A199E00B0292A /* RongCloud */ = {
+			isa = PBXGroup;
+			children = (
+				635CCCD51B6A199700B0292A /* GGRCloudManager.h */,
+				635CCCD61B6A199700B0292A /* GGRCloudManager.m */,
+				635CCCDE1B6A224800B0292A /* GGUserInfo.h */,
+				635CCCDF1B6A224800B0292A /* GGUserInfo.m */,
+			);
+			name = RongCloud;
+			sourceTree = "<group>";
+		};
+		635CCCDA1B6A1C2B00B0292A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				635CCCDB1B6A1C3C00B0292A /* NSString+Categories.h */,
+				635CCCDC1B6A1C3C00B0292A /* NSString+Categories.m */,
+				635CCCE11B6A25A000B0292A /* GGProgressHUD.h */,
+				635CCCE21B6A25A000B0292A /* GGProgressHUD.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		D1246C1A48CD60A62F5BE669 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DEFFA88C6118BC2BC1234FA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 635CCCCC1B6A181500B0292A /* Build configuration list for PBXNativeTarget "GGRCloudDemo" */;
 			buildPhases = (
+				2E11868DD0C3FAD5CF49CAE7 /* Check Pods Manifest.lock */,
 				635CCC9B1B6A181500B0292A /* Sources */,
 				635CCC9C1B6A181500B0292A /* Frameworks */,
 				635CCC9D1B6A181500B0292A /* Resources */,
+				57F824590E42F7B17AB327AE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,14 +329,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E11868DD0C3FAD5CF49CAE7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		57F824590E42F7B17AB327AE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		635CCC9B1B6A181500B0292A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				635CCCDD1B6A1C3C00B0292A /* NSString+Categories.m in Sources */,
 				635CCCAA1B6A181500B0292A /* ViewController.m in Sources */,
 				635CCCA71B6A181500B0292A /* AppDelegate.m in Sources */,
+				635CCCD71B6A199700B0292A /* GGRCloudManager.m in Sources */,
+				635CCCE01B6A224800B0292A /* GGUserInfo.m in Sources */,
 				635CCCA41B6A181500B0292A /* main.m in Sources */,
+				635CCCE31B6A25A000B0292A /* GGProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,9 +445,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiaofeng bao (626266YHAW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: xiaofeng bao (626266YHAW)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -366,6 +469,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "ea82b6ae-8b49-49ad-b8e3-34b03ac82ebd";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -391,6 +495,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -403,6 +508,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "ea82b6ae-8b49-49ad-b8e3-34b03ac82ebd";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -411,23 +517,39 @@
 		};
 		635CCCCD1B6A181500B0292A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E74F159D7A066E8DA475667 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiaofeng bao (626266YHAW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: xiaofeng bao (626266YHAW)";
+				ENABLE_BITCODE = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/OTHERPLAYER/Desktop/GGRCloudDemo/GGRCloudDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = GGRCloudDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = otherplayer.GGRCloudDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hotyq.rongyun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ea82b6ae-8b49-49ad-b8e3-34b03ac82ebd";
 			};
 			name = Debug;
 		};
 		635CCCCE1B6A181500B0292A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 295CD14B1058F70FCB97AF0B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/OTHERPLAYER/Desktop/GGRCloudDemo/GGRCloudDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = GGRCloudDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = otherplayer.GGRCloudDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hotyq.rongyun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ea82b6ae-8b49-49ad-b8e3-34b03ac82ebd";
 			};
 			name = Release;
 		};
@@ -498,6 +620,7 @@
 				635CCCCE1B6A181500B0292A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		635CCCCF1B6A181500B0292A /* Build configuration list for PBXNativeTarget "GGRCloudDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +629,7 @@
 				635CCCD11B6A181500B0292A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		635CCCD21B6A181500B0292A /* Build configuration list for PBXNativeTarget "GGRCloudDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +638,7 @@
 				635CCCD41B6A181500B0292A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

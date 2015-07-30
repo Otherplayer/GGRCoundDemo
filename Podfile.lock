@@ -1,0 +1,13 @@
+PODS:
+  - MBProgressHUD (0.9.1)
+  - RongCloudIMKit (2.2.5)
+
+DEPENDENCIES:
+  - MBProgressHUD (~> 0.9.1)
+  - RongCloudIMKit (~> 2.2.5)
+
+SPEC CHECKSUMS:
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  RongCloudIMKit: b596312663bf2c1a451c649968f3b69ed993c328
+
+COCOAPODS: 0.38.2
