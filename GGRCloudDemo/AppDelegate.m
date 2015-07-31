@@ -33,7 +33,7 @@
     
     
     ///配置用户
-    GGUserInfo *defaultUserInfo = [[GGUserInfo alloc] initWithUserId:@"567890" name:@"otherplayer" portrait:nil token:@"EC7cX3CVsFBSVXaRyoxNoWKyHoENKRh4BQNYge81gLvf7fyOjuyESgOtcYqyBmpaekB8XRVRNjTYAWPwRwsHUg=="];
+    GGUserInfo *defaultUserInfo = [[GGUserInfo alloc] initWithUserId:@"567890" name:@"otherplayer" portrait:nil token:@"nVuoPMLBDVli1V2Vy6OmCD3ySDU2YwYIp9AOpFjRMGP1gvrFSdgxBI/rfVzcfCQuu2pv+I/amGzvFRWt/zqVzw=="];
     
     ///初始化融云
     [[GGRCloudManager sharedInstance] initWithUser:defaultUserInfo];
